@@ -8,6 +8,6 @@ pip install torch transformers yt-dlp librosa
 
 python whisper_transcribe.py --youtube YOUR_YOUTUBE_URL --output output.json
 
-# 從本機音頻或視頻文件轉錄：
+# 從本機音源文件或影片文件轉錄：
 
 python whisper_transcribe.py --file YOUR_AUDIO_OR_VIDEO_FILE --output output.json
